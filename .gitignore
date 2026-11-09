@@ -1,0 +1,12 @@
+# build output
+/target
+**/target
+
+# lockfile for libraries
+Cargo.lock
+
+# editor and os files
+.idea/
+.vscode/
+*.swp
+.DS_Store

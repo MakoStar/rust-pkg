@@ -1,0 +1,19 @@
+[package]
+name = "logger"
+version = "0.1.0"
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+description = "Colored terminal logger built on top of env_logger."
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+log = { workspace = true }
+unicode-width = { workspace = true }
+env_logger = { workspace = true }
+chrono = { workspace = true }
+owo-colors = { workspace = true }
